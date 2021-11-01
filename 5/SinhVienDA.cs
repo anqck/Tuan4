@@ -21,10 +21,10 @@ namespace _5
 
             List<SinhVien> result = new List<SinhVien>();
 
-            foreach(DataRow row in dt.Rows)
-            {
-                result.Add(new SinhVien(Convert.ToInt32(row["MaSV"]), row["TenSV"].ToString(), row["Khoa"].ToString(), Convert.ToDouble(row["DiemTB"])));
-            }   
+            //foreach(DataRow row in dt.Rows)
+            //{
+            //    result.Add(new SinhVien(Convert.ToInt32(row["MaSV"]), row["TenSV"].ToString(), row["Khoa"].ToString(), Convert.ToDouble(row["DiemTB"])));
+            //}   
             
             return result;
         }
